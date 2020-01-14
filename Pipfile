@@ -1,0 +1,20 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+aio-pika = "*"
+pydantic = "*"
+fastapi = "*"
+uvicorn = "*"
+python-multipart = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.7"
+
+[packages.master]
+git = "https://github.com/Rapptz/discord.py.git"
+editable = true
